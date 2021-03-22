@@ -26,7 +26,10 @@ export default function Home() {
             </a>
           </li>
           <li className="ml-2 text-gray-500">
-            <a href="https://foveal.dev" className="underline text-purple-700">
+            <a
+              href="https://foambubble.github.io"
+              className="underline text-purple-700"
+            >
               foambubble.github.io
             </a>{" "}
             // collaborator
