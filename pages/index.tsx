@@ -7,7 +7,7 @@ export default function Home() {
       <div className="font-mono w-full">
         <ul className="bg-gray-50 border border-gray-300 rounded p-4 font-semibold group">
           <h2 className="hidden uppercase font-mono">Projects</h2>
-          <p className="opacity-100 group-hover:opacity-70 transition-opacity">
+          <p className="opacity-100 group-hover:opacity-50 transition-opacity">
             <span className="text-green-700">foreach</span> (
             <span className="text-green-500">$projects</span> as{" "}
             <span className="text-green-500">$project</span>):
@@ -31,7 +31,7 @@ export default function Home() {
             </a>{" "}
             // collaborator
           </li>
-          <p className="opacity-100 group-hover:opacity-70 transition-opacity">
+          <p className="opacity-100 group-hover:opacity-50 transition-opacity">
             <span className="text-green-700">endforeach;</span>
           </p>
         </ul>
