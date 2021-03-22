@@ -10,8 +10,8 @@ const Layout: React.FC<LayoutProps> = ({ title = "Jonny", children }) => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main className="flex flex-col items-center flex-1 px-20">
-      <h1 className="text-2xl font-bold font-mono">{title}</h1>
+    <main className="flex flex-col items-center justify-center flex-1 px-20 w-full max-w-2xl">
+      <h1 className="text-6xl font-bold font-mono text-center mb-4">{title}</h1>
       {children}
     </main>
 
