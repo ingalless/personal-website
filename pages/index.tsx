@@ -25,6 +25,12 @@ export default function Home() {
               foveal.dev
             </a>
           </li>
+          <li className="ml-2 text-gray-500">
+            <a href="https://foveal.dev" className="underline text-purple-700">
+              foambubble.github.io
+            </a>{" "}
+            // collaborator
+          </li>
           <p className="opacity-100 group-hover:opacity-70 transition-opacity">
             <span className="text-green-700">endforeach;</span>
           </p>
